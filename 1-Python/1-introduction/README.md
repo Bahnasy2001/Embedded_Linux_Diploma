@@ -1,6 +1,6 @@
 
 
-```markdown
+
 # Python Scripts Documentation
 
 ## Overview
