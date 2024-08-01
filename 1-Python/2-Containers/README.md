@@ -272,7 +272,3 @@ stream = yt.streams.filter(progressive=True, file_extension='mp4').first()
 # Download the selected stream
 stream.download()
 ```
-
----
-
-Let me know if you need any further modifications or additional scripts to be integrated!
