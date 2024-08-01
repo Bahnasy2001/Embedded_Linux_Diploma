@@ -132,6 +132,13 @@ while True:
     pass
 ```
 
+#### Expected Output
+
+<audio controls>
+  <source src="Test.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+
 ---
 
 ### **FavFolder.py**
