@@ -96,7 +96,7 @@ print(url.json()['bpi']['USD'])
 ```
 
 #### Expected Output
-![Bitcoin_rate][bitcoin_rate.png]
+![Bitcoin_rate](bitcoin_rate.png)
 
 ---
 
