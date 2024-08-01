@@ -1,6 +1,6 @@
-Here is the README content in Markdown format. You can save it directly as `README.md`.
 
-```markdown
+
+
 # Python Scripts Documentation
 
 ## Overview
