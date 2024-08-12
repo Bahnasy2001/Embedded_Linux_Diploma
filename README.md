@@ -1,5 +1,7 @@
 # Embedded_Linux_Diploma
-
+![Static Badge](https://img.shields.io/badge/80%25-bold?style=for-the-badge&logo=python&label=python&labelColor=black&color=blue)
+ ![Static Badge](https://img.shields.io/badge/10%25-bold?style=for-the-badge&logo=github&label=Embedded%20Linux&labelColor=green&color=black)
+---
 ## Overview
 This repository documents my journey and progress through the Embedded Linux Diploma program, guided by `Eng Moatesm El Sayed`. The program includes in-depth studies in Python, C++, Linux, Bash, Raspberry Pi, Device Drivers, Yocto Project, and an introduction to Rust.
 
