@@ -6,6 +6,10 @@ This repository documents my journey and progress through the Embedded Linux Dip
 ## Completed Sessions
 
 ### Python
-- Basics: Basic syntax, data types, and operations.
-- Intermediate: Functions, modules, and error handling.
-- Advanced: Libraries and frameworks for various tasks.
+- **Basics:** Basic syntax, data types, and operations.
+- **Intermediate:** Functions, modules, and error handling.
+- **Advanced:** Libraries and frameworks for various tasks.
+- **Advanced_Cont:** Advanced Python techniques for automation, system interaction, and embedded systems. Includes:
+  - **GPIO Configuration:** Generating and writing C code for AVR microcontrollers.
+  - **Automation Scripts:** Using Python to automate tasks like email management and system monitoring.
+  - **Virtual Assistants:** Building and customizing virtual assistants with voice recognition and web integration.
