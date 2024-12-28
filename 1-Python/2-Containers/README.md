@@ -1,22 +1,24 @@
-# Python Scripts Documentation
+# Python Scripts Documentation 🐍
 
-## Overview
+ ![Static Badge](https://img.shields.io/badge/python-3.12.3-yellow?logo=python&logoColor=blue) ![Static Badge](https://img.shields.io/badge/Embedded%20Linux%20-Diploma-green?logo=Linux&logoColor=blue)
+
+## Overview 📖
 
 This repository contains several Python scripts demonstrating different functionalities. Below are descriptions and usage instructions for each script.
 
-## Scripts
+## Scripts 📜
 
-### **add_shortcut.py**
+### **add_shortcut.py** 🚀
 
 This script listens for a keyboard shortcut (Ctrl + Alt + S) and opens a specific folder when the shortcut is triggered.
 
-#### Usage
+#### Usage 🔧
 
 1. **Install Dependencies**: Ensure you have the `keyboard` library installed. You can install it using:
    - `pip install keyboard`
 2. **Run the Script**: Execute the script with Python. Press Ctrl + Alt + S to open the specified folder.
 
-#### Example Code
+#### Example Code 💻
 
 ```python
 import keyboard
@@ -43,17 +45,17 @@ listen_for_shortcut()
 ```
 ---
 
-### **add_shortcut_2.py**
+### **add_shortcut_2.py** ✏️
 
 This script listens for a keyboard shortcut (Ctrl + Alt + S) and writes the current date and time to a file when the shortcut is triggered.
 
-#### Usage
+#### Usage 🔧
 
 1. **Install Dependencies**: Ensure you have the `keyboard` library installed. You can install it using:
    - `pip install keyboard`
 2. **Run the Script**: Execute the script with Python. Press Ctrl + Alt + S to write the current date and time to `date.txt`.
 
-#### Example Code
+#### Example Code 💻
 
 ```python
 import keyboard
@@ -76,17 +78,17 @@ listen_for_shortcut()
 
 ---
 
-### **bitcoin_rate.py**
+### **bitcoin_rate.py** 💰
 
 This script fetches and prints the current Bitcoin price in USD from the CoinDesk API.
 
-#### Usage
+#### Usage 🔧
 
 1. **Install Dependencies**: Ensure you have the `requests` library installed. You can install it using:
    - `pip install requests`
 2. **Run the Script**: Execute the script with Python. It will print the current Bitcoin price in USD.
 
-#### Example Code
+#### Example Code 💻
 
 ```python
 import requests
@@ -100,18 +102,18 @@ print(url.json()['bpi']['USD'])
 
 ---
 
-### **convert_text_to_speak.py**
+### **convert_text_to_speak.py** 🗣️
 
 This script converts a given text into speech using the `gTTS` (Google Text-to-Speech) library and plays the audio using the `python-vlc` library. It saves the audio file as `Test.mp3` and then plays it.
 
-#### Usage
+#### Usage 🔧
 
 1. **Install Dependencies**: Ensure you have the `gtts` and `python-vlc` libraries installed. You can install them using:
    - `pip install gtts`
    - `pip install python-vlc`
 2. **Run the Script**: Execute the script with Python. It will convert the text to speech, save it as `Test.mp3`, and play the audio.
 
-#### Example Code
+#### Example Code 💻
 
 ```python
 from gtts import gTTS
@@ -134,16 +136,16 @@ while True:
 
 ---
 
-### **FavFolder.py**
+### **FavFolder.py** 📂
 
 This script allows the user to select a folder from a predefined list of favorite folders and then opens the selected folder using the default file manager. It handles both Windows and Linux systems.
 
-#### Usage
+#### Usage 🔧
 
 1. **Run the Script**: Execute the script with Python. It will display a list of predefined favorite folders.
 2. **Select a Folder**: Enter the index of the folder you want to open. The script will open the selected folder using the default file manager.
 
-#### Example Code
+#### Example Code 💻
 
 ```python
 import os
@@ -179,15 +181,15 @@ else:
 
 ---
 
-### **find_largest_num.py**
+### **find_largest_num.py** 🔢
 
 This script defines a function to find the largest number in a given list using a loop. It then uses this function to find and print the largest number from a predefined list.
 
-#### Usage
+#### Usage 🔧
 
 1. **Run the Script**: Execute the script with Python. It will print the largest number in the predefined list.
 
-#### Example Code
+#### Example Code 💻
 
 ```python
 def find_largest_num(input_list):
@@ -218,15 +220,15 @@ print("The largest number in the list is:", largest_number)
 
 ---
 
-### **TimeNow.py**
+### **TimeNow.py** ⏰
 
 This script retrieves the current date and time, formats it, and prints it. It excludes the last 7 characters from the default string representation of the date and time, which typically removes microseconds.
 
-#### Usage
+#### Usage 🔧
 
 1. **Run the Script**: Execute the script with Python. It will print the current date and time, excluding the last 7 characters.
 
-#### Example Code
+#### Example Code 💻
 
 ```python
 import datetime
@@ -244,17 +246,17 @@ print(str(now)[0:-7])
 
 ---
 
-### **Youtube_Downloader.py**
+### **Youtube_Downloader.py** 🎥
 
 This script downloads a YouTube video using the `pytube` library. It selects the first available progressive MP4 stream (which includes both video and audio) and downloads it.
 
-#### Usage
+#### Usage 🔧
 
 1. **Install Dependencies**: Ensure you have the `pytube` library installed. You can install it using:
    - `pip install pytube`
 2. **Run the Script**: Execute the script with Python. It will download the video from the specified URL.
 
-#### Example Code
+#### Example Code 💻
 
 ```python
 from pytube import YouTube
@@ -272,3 +274,10 @@ stream = yt.streams.filter(progressive=True, file_extension='mp4').first()
 # Download the selected stream
 stream.download()
 ```
+
+## Author 👤
+
+**Hassan Ahmed Fathy, El Bahnasy**  
+- [LinkedIn](https://www.linkedin.com/in/hassanbahnasy/)  
+- [GitHub](https://github.com/Bahnasy2001)  
+- Contact: hassanbahnasy872@gmail.com
