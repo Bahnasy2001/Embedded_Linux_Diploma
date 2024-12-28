@@ -1,22 +1,24 @@
-# Task 1 Scripts
+# 🚀 Task 1 Scripts 🚀
 
-## Overview
+ ![Static Badge](https://img.shields.io/badge/python-3.12.3-yellow?logo=python&logoColor=blue) ![Static Badge](https://img.shields.io/badge/Embedded%20Linux%20-Diploma-green?logo=Linux&logoColor=blue)
+
+## 📝 Overview 📝
 
 This folder contains Python scripts related to Task 1, including `Task_1.py` and `firelink.py`. These scripts demonstrate how to interact with web pages using Python.
 
-## Scripts
+## 📂 Scripts 📂
 
-### 1. Task_1.py
+###  1. 🌐 Task_1.py 🌐
 
 This script provides a menu for users to choose between opening different social media pages in the Brave browser. The available options are Facebook, LinkedIn, and Twitter.
 
-#### Usage
+#### 🔧 Usage 🔧
 
-1. Run the script with Python.
-2. Choose an option by entering the corresponding index (1 for Facebook, 2 for LinkedIn, 3 for Twitter).
-3. The script will open the selected page in the Brave browser.
+1. ▶️ Run the script with Python.
+2. 🛠️ Choose an option by entering the corresponding index (1 for Facebook, 2 for LinkedIn, 3 for Twitter).
+3. 🌍 The script will open the selected page in the Brave browser.
 
-#### Example Code
+#### 💻 Example Code 💻  
 
 ```python
 import firelink
@@ -28,15 +30,15 @@ index = int(input("Choose with index:"))
 firelink.firelink(index)
 ```
 
-### 2. firelink.py
+### 2. 🔗 firelink.py 🔗
 
 This script contains a function `firelink(index)` that opens a specified social media page in the Brave browser based on the provided index. The supported pages are Facebook, LinkedIn, and Twitter.
 
-#### Usage
-1. Ensure that Brave browser is installed on your system.
-2. The script is used by calling the `firelink(index)` function with the desired index.
+#### 🔧 Usage 🔧
+1. ✅ Ensure that Brave browser is installed on your system.
+2. 🔧 The script is used by calling the `firelink(index)` function with the desired index.
 
-#### Example Code
+#### 💻 Example Code 💻
 
 ```python
 import webbrowser
@@ -49,30 +51,30 @@ def firelink(index):
     ]
     webbrowser.get("C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe %s").open(links[index-1])
 ```
-#### Requirements
-- Brave Browser: Ensure that the Brave browser is installed in the specified path.
-- webbrowser: This is a standard Python library, so no additional installation is needed.
+#### 😊 Requirements 😊
+- 😊 Brave Browser: Ensure that the Brave browser is installed in the specified path.
+- 😊 webbrowser: This is a standard Python library, so no additional installation is needed.
 
 ---
 
-# Task 2 Scripts
+# 🔍 Task 2 Scripts 🔍
 
-## Overview
+## 🌟 Overview 🌟
 
 This folder contains Python scripts related to Task 2. The scripts demonstrate how to interact with web APIs to retrieve information or suggestions.
 
-## Scripts
+## 📂 Scripts 📂
 
-### 1. get_public_IP.py
+### 1. 🌐 get_public_IP.py 🌐
 
 This script retrieves and prints the public IP address of the user's machine by sending a GET request to the ipify API.
 
-#### Usage
+#### 🔧 Usage 🔧
 
-1. Run the script with Python.
-2. The script will print the public IP address of your machine.
+1. ▶️ Run the script with Python.
+2. 🌍 The script will print the public IP address of your machine.
 
-#### Example Code
+#### 💻 Example Code 💻
 
 ```python
 import requests
@@ -98,20 +100,20 @@ def get_public_IP():
 get_public_IP()
 ```
 
-#### Requirements
-- `requests`: Install using `pip install requests`
+#### 😊 Requirements 😊
+- 😊 `requests`: Install using `pip install requests`
 
 ---
 
-### 2. suggest_activity.py
+### 2. 🎉 suggest_activity.py 🎉
 
 This script provides an activity suggestion by sending a GET request to the Bored API. The script retrieves a suggestion for an activity and prints it.
 
-#### Usage
-1. Run the script with Python.
-2. The script will print a suggested activity for you to try.
+#### 🔧 Usage 🔧
+1. ▶️ Run the script with Python.
+2. 🎭 The script will print a suggested activity for you to try.
 
-#### Example Code
+#### 💻 Example Code 💻
 
 ```python
 import requests
@@ -137,37 +139,37 @@ def suggest_activity():
 suggest_activity()
 ```
 
-#### Requirements
-- `requests`: Install using `pip install requests`
+#### 😊 Requirements 😊
+- 😊 `requests`: Install using `pip install requests`
 
 ---
 
-# Task 3 Scripts
+# ⚡ Task 3 Scripts ⚡
 
-## Overview
+## 🌟 Overview 🌟
 
 This folder contains Python scripts related to Task 3. These scripts automate various tasks using Python's `pyautogui` library to interact with the graphical user interface.
 
-## Scripts
+## 📂 Scripts 📂
 
-### vscode.py
+### 🖱️ vscode.py 🖱️
 
 This script automates the process of opening Visual Studio Code and installing several extensions using the `pyautogui` library. It performs the following actions:
 
-1. Opens Visual Studio Code by simulating keypresses.
-2. Installs the following extensions:
-   - Clangd
-   - C++ TestMate
-   - C++ Helper
-   - CMake
-   - CMake Tools
+1. 📦 Opens Visual Studio Code by simulating keypresses.
+2. 📦 Installs the following extensions:
+   - 📦 Clangd
+   - 📦 C++ TestMate
+   - 📦 C++ Helper
+   - 📦 CMake
+   - 📦 CMake Tools
 
-#### Usage
+#### 🔧 Usage 🔧
 
 1. Run the script with Python.
 2. The script will open Visual Studio Code and sequentially install the specified extensions.
 
-#### Example Code
+#### 💻 Example Code 💻
 
 ```python
 import time
@@ -225,35 +227,35 @@ def open_vscode_and_install_extensions():
 open_vscode_and_install_extensions()
 ```
 
-#### Requirements
-- `pyautogui`: Install using pip install `pyautogui`
+#### 😊 Requirements 😊
+- 😊 `pyautogui`: Install using pip install `pyautogui`
 
-#### Notes
-- Ensure that Visual Studio Code is installed on your system before running this script.
-- Adjust the `time.sleep()` values as needed based on your system's performance to ensure that each action completes before the next one starts.
+#### 📝  Notes 📝
+- 😊 Ensure that Visual Studio Code is installed on your system before running this script.
+- 😊 Adjust the `time.sleep()` values as needed based on your system's performance to ensure that each action completes before the next one starts.
 
 ---
-# Another Scripts
+# ⚙️ Another Scripts ⚙️
 
-## Scripts
+## 📂 Scripts 📂
 
-### pyautoGui.py
+### 🖱️ pyautoGui.py 🖱️
 
 This script automates the process of opening the Brave browser, navigating to a specific URL, and interacting with elements on the screen using the `pyautogui` library. The script performs the following actions:
 
-1. Opens the Brave browser.
-2. Navigates to a specified URL.
-3. Locates an image on the screen and performs a click action.
+1. 😊 Opens the Brave browser.
+2. 😊 Navigates to a specified URL.
+3. 😊 Locates an image on the screen and performs a click action.
 
-#### Usage
+#### 🔧 Usage 🔧
 
-1. Run the script with Python.
-2. The script will:
+1. ▶️ Run the script with Python.
+2. 📜 The script will:
    - Open the Brave browser.
    - Navigate to a specified Coursera course link.
    - Locate an image on the screen and perform a click action.
 
-#### Example Code
+#### 💻 Example Code 💻
 
 ```python
 import pyautogui
@@ -288,9 +290,15 @@ time.sleep(4)
 - `pyautogui`: Install using `pip install pyautogui`
 - `webbrowser` and `os` modules (included with Python standard library)
 
-#### Notes
+#### 📝 Notes 📝
 
-- Ensure that the Brave browser is installed and accessible on your system.
-- Adjust the path to the image and `confidence` parameter as needed to match the image you want to locate on the screen.
-- Make sure the image `Advanced_Linux_Command_Line.png` is in the same directory as the script or adjust the path accordingly.
+- 😊 Ensure that the Brave browser is installed and accessible on your system.
+- 😊 Adjust the path to the image and `confidence` parameter as needed to match the image you want to locate on the screen.
+- 😊 Make sure the image `Advanced_Linux_Command_Line.png` is in the same directory as the script or adjust the path accordingly.
 
+## Author 👤
+
+**Hassan Ahmed Fathy, El Bahnasy**  
+- [LinkedIn](https://www.linkedin.com/in/hassanbahnasy/)  
+- [GitHub](https://github.com/Bahnasy2001)  
+- Contact: hassanbahnasy872@gmail.com
