@@ -1,4 +1,4 @@
-# Embedded_Linux_Diploma 🔔
+# Embedded_Linux_Diploma 🐧⚙️
 
 ![Static Badge](https://img.shields.io/badge/100%25-bold?style=for-the-badge&logo=python&label=python&labelColor=black&color=blue)
  ![Static Badge](https://img.shields.io/badge/10%25-bold?style=for-the-badge&logo=github&label=Embedded%20Linux&labelColor=green&color=black)
