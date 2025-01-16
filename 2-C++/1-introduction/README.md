@@ -1,6 +1,6 @@
 #  Introduction Tasks <img src="cpp_swag.gif" alt="cpp" width="25" height="25" />
 
-![Static Badge](https://img.shields.io/badge/GNU%20-%2014.2.0%20-%20black?style=plastic&logo=c%2B%2B&labelColor=skyblue) ![C++ Static Badge](https://img.shields.io/badge/C%2B%2B-17-blue?logo=c%2B%2B&logoColor=white) ![Static Badge](https://img.shields.io/badge/Embedded%20Linux%20-Diploma-green?logo=Linux&logoColor=blue)
+![Static Badge](https://img.shields.io/badge/GNU%20-%2014.2.0%20-%20black?style=plastic&logo=c%2B%2B&labelColor=skyblue) ![C++ Static Badge](https://img.shields.io/badge/C%2B%2B-17-blue?style=plastic&logo=c%2B%2B&logoColor=white) ![Static Badge](https://img.shields.io/badge/Embedded%20Linux%20-Diploma-green?style=plastic&logo=Linux&logoColor=blue)
 
 
 ## Overview 🌟
