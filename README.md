@@ -1,7 +1,6 @@
 # Embedded_Linux_Diploma 🐧⚙️
 
-![Static Badge](https://img.shields.io/badge/100%25-bold?style=for-the-badge&logo=python&label=python&labelColor=black&color=blue)
- ![Static Badge](https://img.shields.io/badge/10%25-bold?style=for-the-badge&logo=github&label=Embedded%20Linux&labelColor=green&color=black)
+![Static Badge](https://img.shields.io/badge/100%25-bold?style=for-the-badge&logo=python&label=python&labelColor=black&color=blue) ![Static Badge](https://img.shields.io/badge/C%2B%2B%20-%2012.5%25%20-%20green?style=for-the-badge&logo=c%2B%2B&logoColor=green&labelColor=black) ![Static Badge](https://img.shields.io/badge/10%25-bold?style=for-the-badge&logo=github&label=Embedded%20Linux&labelColor=green&color=black)
 
 ---
 ## Overview
@@ -32,6 +31,17 @@ This repository documents my journey and progress through the Embedded Linux Dip
 
 ---
 
+### C++ 🖥️
+- **Introduction Tasks:** Practiced fundamental concepts of C++ through a series of tasks, including:
+  - **ASCII Table:** Generating a table for ASCII codes. 📋
+  - **Max Number Finder:** Comparing three numbers to find the maximum. 🔢
+  - **Right-Angle Triangle:** Printing a triangle pattern using `*`. 🔺
+  - **Vowel Checker:** Determining if an input letter is a vowel. 🔤
+  - **Multiplication Table:** Displaying the multiplication table for a given number. ✖️
+  - **Digit Summation:** Calculating the sum of digits of an integer. ➕
+  - **Decimal-Binary Conversion:** Converting between decimal and binary. 🔄
+
+---
 
 ## Author 👤
 
