@@ -1,0 +1,34 @@
+\doxysection{Contact.\+hpp}
+\hypertarget{_contact_8hpp_source}{}\label{_contact_8hpp_source}\mbox{\hyperlink{_contact_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#ifndef\ CONTACT\_H}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#define\ CONTACT\_H}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00025\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_contact}{Contact}}\ }
+\DoxyCodeLine{00026\ \{}
+\DoxyCodeLine{00027\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00028\ \ \ \ \ std::string\ \mbox{\hyperlink{class_contact_a07c586c9557f49c346c07faba78e53c8}{name}};\ }
+\DoxyCodeLine{00029\ \ \ \ \ std::string\ \mbox{\hyperlink{class_contact_af3b90b9a3413f79ca00ab82cd0c5a4cb}{phoneNumber}};\ }
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00031\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00038\ \ \ \ \ \mbox{\hyperlink{class_contact_a37bd454120d92e4bb3142b56f3faec98}{Contact}}(\textcolor{keyword}{const}\ std::string\&\ \mbox{\hyperlink{class_contact_a07c586c9557f49c346c07faba78e53c8}{name}},\ \textcolor{keyword}{const}\ std::string\&\ \mbox{\hyperlink{class_contact_af3b90b9a3413f79ca00ab82cd0c5a4cb}{phoneNumber}})}
+\DoxyCodeLine{00039\ \ \ \ \ \ \ \ \ :\ \mbox{\hyperlink{class_contact_a07c586c9557f49c346c07faba78e53c8}{name}}(\mbox{\hyperlink{class_contact_a07c586c9557f49c346c07faba78e53c8}{name}}),\ \mbox{\hyperlink{class_contact_af3b90b9a3413f79ca00ab82cd0c5a4cb}{phoneNumber}}(\mbox{\hyperlink{class_contact_af3b90b9a3413f79ca00ab82cd0c5a4cb}{phoneNumber}})\ \{\}}
+\DoxyCodeLine{00040\ }
+\DoxyCodeLine{00044\ \ \ \ \ \textcolor{keyword}{virtual}\ \mbox{\hyperlink{class_contact_aaa0df9181ff14d523ef05f949f21380e}{\string~Contact}}()\ =\ \textcolor{keywordflow}{default};}
+\DoxyCodeLine{00051\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_contact_a8b27fcd881c8103dcbb644194c9ca72a}{display}}()\textcolor{keyword}{\ const\ }}
+\DoxyCodeLine{00052\ \textcolor{keyword}{\ \ \ \ }\{}
+\DoxyCodeLine{00053\ \ \ \ \ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Name:\ "{}}\ <<\mbox{\hyperlink{class_contact_a07c586c9557f49c346c07faba78e53c8}{name}}\ <<\ \textcolor{stringliteral}{"{},\ Phone\ Number:\ "{}}\ <<\ \mbox{\hyperlink{class_contact_af3b90b9a3413f79ca00ab82cd0c5a4cb}{phoneNumber}}\ <<\ std::endl;}
+\DoxyCodeLine{00054\ \ \ \ \ \}}
+\DoxyCodeLine{00060\ \ \ \ \ std::string\ \mbox{\hyperlink{class_contact_a4fdbfb743dbd97669c48f9078ddb37fd}{getName}}()\textcolor{keyword}{\ const\ }}
+\DoxyCodeLine{00061\ \textcolor{keyword}{\ \ \ \ }\{}
+\DoxyCodeLine{00062\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{class_contact_a07c586c9557f49c346c07faba78e53c8}{name}};}
+\DoxyCodeLine{00063\ \ \ \ \ \}}
+\DoxyCodeLine{00064\ \};}
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00066\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ !CONTACT\_H}}
+
+\end{DoxyCode}

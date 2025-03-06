@@ -1,0 +1,130 @@
+\doxysection{Contact Class Reference}
+\hypertarget{class_contact}{}\label{class_contact}\index{Contact@{Contact}}
+
+
+Represents a generic contact in the address book.  
+
+
+
+
+{\ttfamily \#include $<$Contact.\+hpp$>$}
+
+
+
+Inheritance diagram for Contact\+:
+% FIG 0
+
+
+Collaboration diagram for Contact\+:
+% FIG 1
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_contact_a37bd454120d92e4bb3142b56f3faec98}{Contact}} (const std\+::string \&\mbox{\hyperlink{class_contact_a07c586c9557f49c346c07faba78e53c8}{name}}, const std\+::string \&\mbox{\hyperlink{class_contact_af3b90b9a3413f79ca00ab82cd0c5a4cb}{phone\+Number}})
+\begin{DoxyCompactList}\small\item\em Constructor to intialize a contact with a name and phone Number. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_contact_aaa0df9181ff14d523ef05f949f21380e}{\texorpdfstring{$\sim$}{\string~}\+Contact}} ()=default
+\begin{DoxyCompactList}\small\item\em Virtual destructor to ensure proper cleanup of derived classes. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_contact_a8b27fcd881c8103dcbb644194c9ca72a}{display}} () const
+\begin{DoxyCompactList}\small\item\em Displays the contact\textquotesingle{}s details. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_contact_a4fdbfb743dbd97669c48f9078ddb37fd}{get\+Name}} () const
+\begin{DoxyCompactList}\small\item\em Gets the name of contact. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{class_contact_a07c586c9557f49c346c07faba78e53c8}{name}}
+\begin{DoxyCompactList}\small\item\em The name of the contact. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_contact_af3b90b9a3413f79ca00ab82cd0c5a4cb}{phone\+Number}}
+\begin{DoxyCompactList}\small\item\em The phone number of the contact. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a generic contact in the address book. 
+
+This class serves as the base class for all contact types. It stores basic information about a contact, such as their name and phone Number, and provides a virtual method for displaying contact details. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_contact_a37bd454120d92e4bb3142b56f3faec98}\index{Contact@{Contact}!Contact@{Contact}}
+\index{Contact@{Contact}!Contact@{Contact}}
+\doxysubsubsection{\texorpdfstring{Contact()}{Contact()}}
+{\footnotesize\ttfamily \label{class_contact_a37bd454120d92e4bb3142b56f3faec98} 
+Contact\+::\+Contact (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name}{, }\item[{const std\+::string \&}]{phone\+Number}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor to intialize a contact with a name and phone Number. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the contact. \\
+\hline
+{\em phone\+Number} & The phone number of the contact. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_contact_aaa0df9181ff14d523ef05f949f21380e}\index{Contact@{Contact}!````~Contact@{\texorpdfstring{$\sim$}{\string~}Contact}}
+\index{````~Contact@{\texorpdfstring{$\sim$}{\string~}Contact}!Contact@{Contact}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Contact()}{\string~Contact()}}
+{\footnotesize\ttfamily \label{class_contact_aaa0df9181ff14d523ef05f949f21380e} 
+virtual Contact\+::\texorpdfstring{$\sim$}{\string~}\+Contact (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [default]}}
+
+
+
+Virtual destructor to ensure proper cleanup of derived classes. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_contact_a8b27fcd881c8103dcbb644194c9ca72a}\index{Contact@{Contact}!display@{display}}
+\index{display@{display}!Contact@{Contact}}
+\doxysubsubsection{\texorpdfstring{display()}{display()}}
+{\footnotesize\ttfamily \label{class_contact_a8b27fcd881c8103dcbb644194c9ca72a} 
+virtual void Contact\+::display (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Displays the contact\textquotesingle{}s details. 
+
+This method is overriden by drived classes to provide specific implementations for different types of contacts. 
+
+Reimplemented in \mbox{\hyperlink{class_business_contact_a6714083b1f660998adcae3819dc7f7a6}{Business\+Contact}}, and \mbox{\hyperlink{class_personal_contact_a0dd909ca9a72292ea64400653fe6f7d4}{Personal\+Contact}}.
+
+\Hypertarget{class_contact_a4fdbfb743dbd97669c48f9078ddb37fd}\index{Contact@{Contact}!getName@{getName}}
+\index{getName@{getName}!Contact@{Contact}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily \label{class_contact_a4fdbfb743dbd97669c48f9078ddb37fd} 
+std\+::string Contact\+::get\+Name (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the name of contact. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string the name of contact. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_contact_a07c586c9557f49c346c07faba78e53c8}\index{Contact@{Contact}!name@{name}}
+\index{name@{name}!Contact@{Contact}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily \label{class_contact_a07c586c9557f49c346c07faba78e53c8} 
+std\+::string Contact\+::name\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The name of the contact. 
+
+\Hypertarget{class_contact_af3b90b9a3413f79ca00ab82cd0c5a4cb}\index{Contact@{Contact}!phoneNumber@{phoneNumber}}
+\index{phoneNumber@{phoneNumber}!Contact@{Contact}}
+\doxysubsubsection{\texorpdfstring{phoneNumber}{phoneNumber}}
+{\footnotesize\ttfamily \label{class_contact_af3b90b9a3413f79ca00ab82cd0c5a4cb} 
+std\+::string Contact\+::phone\+Number\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The phone number of the contact. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_contact_8hpp}{Contact.\+hpp}}\end{DoxyCompactItemize}

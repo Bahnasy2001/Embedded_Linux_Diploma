@@ -1,0 +1,20 @@
+digraph "Contact.hpp"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="Contact.hpp",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Base class for all types of contacts in the address book."];
+  Node1 -> Node2 [id="edge8_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="AddressBook.hpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$_address_book_8hpp.html",tooltip="Manages a collection of contacts in the address book."];
+  Node2 -> Node3 [id="edge9_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="AddressBook.cpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$_address_book_8cpp.html",tooltip="Implementation of the AddressBook class."];
+  Node2 -> Node4 [id="edge10_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="main.cpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$main_8cpp.html",tooltip="Main program for the Address Book application."];
+  Node1 -> Node5 [id="edge11_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="BusinessContact.hpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$_business_contact_8hpp.html",tooltip="Derived class for business contacts in the address book."];
+  Node5 -> Node4 [id="edge12_Node000005_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge13_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="PersonalContact.hpp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$_personal_contact_8hpp.html",tooltip="Derived class for personal contacts in the address book."];
+  Node6 -> Node4 [id="edge14_Node000006_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

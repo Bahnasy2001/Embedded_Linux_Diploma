@@ -1,0 +1,28 @@
+\doxysection{Personal\+Contact.\+hpp}
+\hypertarget{_personal_contact_8hpp_source}{}\label{_personal_contact_8hpp_source}\mbox{\hyperlink{_personal_contact_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#ifndef\ PERSONALCONTACT\_H}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#define\ PERSONALCONTACT\_H}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_contact_8hpp}{Contact.hpp}}"{}}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00024\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_personal_contact}{PersonalContact}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_contact}{Contact}}\ }
+\DoxyCodeLine{00025\ \{}
+\DoxyCodeLine{00026\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00027\ \ \ \ \ std::string\ relationship;\ }
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00029\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00037\ \ \ \ \ \mbox{\hyperlink{class_personal_contact_ab48fee959439960fd7c4d976c2d28459}{PersonalContact}}(\textcolor{keyword}{const}\ std::string\&\ \mbox{\hyperlink{class_contact_a07c586c9557f49c346c07faba78e53c8}{name}},\ \textcolor{keyword}{const}\ std::string\&\ \mbox{\hyperlink{class_contact_af3b90b9a3413f79ca00ab82cd0c5a4cb}{phoneNumber}},\ \textcolor{keyword}{const}\ std::string\&\ relationship)}
+\DoxyCodeLine{00038\ \ \ \ \ \ \ \ \ :\ \mbox{\hyperlink{class_contact}{Contact}}(\mbox{\hyperlink{class_contact_a07c586c9557f49c346c07faba78e53c8}{name}},\ \mbox{\hyperlink{class_contact_af3b90b9a3413f79ca00ab82cd0c5a4cb}{phoneNumber}}),\ relationship(relationship)\ \{\}}
+\DoxyCodeLine{00042\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_personal_contact_a0dd909ca9a72292ea64400653fe6f7d4}{display}}()\textcolor{keyword}{\ const\ override}}
+\DoxyCodeLine{00043\ \textcolor{keyword}{\ \ \ \ }\{}
+\DoxyCodeLine{00044\ \ \ \ \ \ \ \ \ std::cout\ <<\ \textcolor{stringliteral}{"{}Name:\ "{}}\ <<\ \mbox{\hyperlink{class_contact_a07c586c9557f49c346c07faba78e53c8}{name}}\ <<\ \textcolor{stringliteral}{"{},\ Phone\ Number:\ "{}}<<\ \mbox{\hyperlink{class_contact_af3b90b9a3413f79ca00ab82cd0c5a4cb}{phoneNumber}}\ }
+\DoxyCodeLine{00045\ \ \ \ \ \ \ \ \ \ \ \ \ <<\ \textcolor{stringliteral}{"{},\ realtionship:\ "{}}\ <<\ relationship\ <<\ std::endl;}
+\DoxyCodeLine{00046\ \ \ \ \ \}}
+\DoxyCodeLine{00047\ \};}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00049\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ !PERSONALCONTACT\_H}}
+
+\end{DoxyCode}

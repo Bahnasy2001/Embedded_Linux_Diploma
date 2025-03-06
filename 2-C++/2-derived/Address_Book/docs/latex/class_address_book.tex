@@ -1,0 +1,107 @@
+\doxysection{Address\+Book Class Reference}
+\hypertarget{class_address_book}{}\label{class_address_book}\index{AddressBook@{AddressBook}}
+
+
+Represents an address book that manages a collection of contacts.  
+
+
+
+
+{\ttfamily \#include $<$Address\+Book.\+hpp$>$}
+
+
+
+Collaboration diagram for Address\+Book\+:
+% FIG 0
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_address_book_ae77ee5f199ebe1359ffe9b7b4610eef3}{add\+Contact}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_contact}{Contact}} $>$ contact)
+\begin{DoxyCompactList}\small\item\em Adds a contact to the address book. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_address_book_a6dc0825590ee00178186cf1a534c6c98}{delete\+Contact}} (const std\+::string \&name)
+\begin{DoxyCompactList}\small\item\em Deletes a contact from the address book by name. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_address_book_a67a1eccc0f688e47e18cc609ed6bcb41}{delete\+All\+Contacts}} ()
+\begin{DoxyCompactList}\small\item\em Deletes all contacts from the address book. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_address_book_aace4726e48ac43da978bf60fb108de16}{search\+Contact}} (const std\+::string \&name) const
+\begin{DoxyCompactList}\small\item\em Searches for a contact by name and display its details. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_address_book_a50aedfae5fbd96c5994ad9f7db4ad4f2}{list\+Contacts}} () const
+\begin{DoxyCompactList}\small\item\em Lists all contacts in the address book. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents an address book that manages a collection of contacts. 
+
+This class provides functionality to add, delete, search, and list contacts. It uses a vector of shared pointers to manages contacts in different types. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_address_book_ae77ee5f199ebe1359ffe9b7b4610eef3}\index{AddressBook@{AddressBook}!addContact@{addContact}}
+\index{addContact@{addContact}!AddressBook@{AddressBook}}
+\doxysubsubsection{\texorpdfstring{addContact()}{addContact()}}
+{\footnotesize\ttfamily \label{class_address_book_ae77ee5f199ebe1359ffe9b7b4610eef3} 
+void Address\+Book\+::add\+Contact (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_contact}{Contact}} $>$}]{contact}{}\end{DoxyParamCaption})}
+
+
+
+Adds a contact to the address book. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em contact} & A shared pointer to the contact to be added. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_address_book_a67a1eccc0f688e47e18cc609ed6bcb41}\index{AddressBook@{AddressBook}!deleteAllContacts@{deleteAllContacts}}
+\index{deleteAllContacts@{deleteAllContacts}!AddressBook@{AddressBook}}
+\doxysubsubsection{\texorpdfstring{deleteAllContacts()}{deleteAllContacts()}}
+{\footnotesize\ttfamily \label{class_address_book_a67a1eccc0f688e47e18cc609ed6bcb41} 
+void Address\+Book\+::delete\+All\+Contacts (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Deletes all contacts from the address book. 
+
+\Hypertarget{class_address_book_a6dc0825590ee00178186cf1a534c6c98}\index{AddressBook@{AddressBook}!deleteContact@{deleteContact}}
+\index{deleteContact@{deleteContact}!AddressBook@{AddressBook}}
+\doxysubsubsection{\texorpdfstring{deleteContact()}{deleteContact()}}
+{\footnotesize\ttfamily \label{class_address_book_a6dc0825590ee00178186cf1a534c6c98} 
+void Address\+Book\+::delete\+Contact (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name}{}\end{DoxyParamCaption})}
+
+
+
+Deletes a contact from the address book by name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of contact to be deleted. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_address_book_a50aedfae5fbd96c5994ad9f7db4ad4f2}\index{AddressBook@{AddressBook}!listContacts@{listContacts}}
+\index{listContacts@{listContacts}!AddressBook@{AddressBook}}
+\doxysubsubsection{\texorpdfstring{listContacts()}{listContacts()}}
+{\footnotesize\ttfamily \label{class_address_book_a50aedfae5fbd96c5994ad9f7db4ad4f2} 
+void Address\+Book\+::list\+Contacts (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Lists all contacts in the address book. 
+
+\Hypertarget{class_address_book_aace4726e48ac43da978bf60fb108de16}\index{AddressBook@{AddressBook}!searchContact@{searchContact}}
+\index{searchContact@{searchContact}!AddressBook@{AddressBook}}
+\doxysubsubsection{\texorpdfstring{searchContact()}{searchContact()}}
+{\footnotesize\ttfamily \label{class_address_book_aace4726e48ac43da978bf60fb108de16} 
+void Address\+Book\+::search\+Contact (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name}{}\end{DoxyParamCaption}) const}
+
+
+
+Searches for a contact by name and display its details. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the contact to search for. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_address_book_8hpp}{Address\+Book.\+hpp}}\item 
+\mbox{\hyperlink{_address_book_8cpp}{Address\+Book.\+cpp}}\end{DoxyCompactItemize}

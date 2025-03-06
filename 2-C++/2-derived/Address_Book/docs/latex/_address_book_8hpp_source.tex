@@ -1,0 +1,27 @@
+\doxysection{Address\+Book.\+hpp}
+\hypertarget{_address_book_8hpp_source}{}\label{_address_book_8hpp_source}\mbox{\hyperlink{_address_book_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#ifndef\ ADDRESSBOOK\_H}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#define\ ADDRESSBOOK\_H}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <memory>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_contact_8hpp}{Contact.hpp}}"{}}}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00024\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_address_book}{AddressBook}}\ }
+\DoxyCodeLine{00025\ \{}
+\DoxyCodeLine{00026\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00027\ \ \ \ \ std::vector<std::shared\_ptr<Contact>>\ contacts;\ }
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00029\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00035\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_address_book_ae77ee5f199ebe1359ffe9b7b4610eef3}{addContact}}(std::shared\_ptr<Contact>\ contact);}
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_address_book_a6dc0825590ee00178186cf1a534c6c98}{deleteContact}}(\textcolor{keyword}{const}\ std::string\&\ name);}
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_address_book_a67a1eccc0f688e47e18cc609ed6bcb41}{deleteAllContacts}}();}
+\DoxyCodeLine{00051\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_address_book_aace4726e48ac43da978bf60fb108de16}{searchContact}}(\textcolor{keyword}{const}\ std::string\&\ name)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00055\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_address_book_a50aedfae5fbd96c5994ad9f7db4ad4f2}{listContacts}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00056\ \};}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00058\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ !ADDRESSBOOK\_H}}
+
+\end{DoxyCode}

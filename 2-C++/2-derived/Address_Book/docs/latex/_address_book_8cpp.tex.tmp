@@ -1,0 +1,18 @@
+\doxysection{Address\+Book.\+cpp File Reference}
+\hypertarget{_address_book_8cpp}{}\label{_address_book_8cpp}\index{AddressBook.cpp@{AddressBook.cpp}}
+
+
+Implementation of the \doxylink{class_address_book}{Address\+Book} class.  
+
+
+{\ttfamily \#include "{}Address\+Book.\+hpp"{}}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+Include dependency graph for Address\+Book.\+cpp\+:
+% FIG 0
+
+
+\doxysubsection{Detailed Description}
+Implementation of the \doxylink{class_address_book}{Address\+Book} class. 
+
+This file contains the implementation of the methods defined in the {\ttfamily \doxylink{class_address_book}{Address\+Book}} class. 

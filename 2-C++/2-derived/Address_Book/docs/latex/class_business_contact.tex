@@ -1,0 +1,92 @@
+\doxysection{Business\+Contact Class Reference}
+\hypertarget{class_business_contact}{}\label{class_business_contact}\index{BusinessContact@{BusinessContact}}
+
+
+Represents a business contact in the address book.  
+
+
+
+
+{\ttfamily \#include $<$Business\+Contact.\+hpp$>$}
+
+
+
+Inheritance diagram for Business\+Contact\+:
+% FIG 0
+
+
+Collaboration diagram for Business\+Contact\+:
+% FIG 1
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_business_contact_ade35427dd751009cd898565e4983e877}{Business\+Contact}} (const std\+::string \&\mbox{\hyperlink{class_contact_a07c586c9557f49c346c07faba78e53c8}{name}}, const std\+::string \&\mbox{\hyperlink{class_contact_af3b90b9a3413f79ca00ab82cd0c5a4cb}{phone\+Number}}, const std\+::string \&company)
+\begin{DoxyCompactList}\small\item\em Constructor to initialize a business contact. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_business_contact_a6714083b1f660998adcae3819dc7f7a6}{display}} () const override
+\begin{DoxyCompactList}\small\item\em Overrides the display method to include company information. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_contact}{Contact}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_contact_a37bd454120d92e4bb3142b56f3faec98}{Contact}} (const std\+::string \&\mbox{\hyperlink{class_contact_a07c586c9557f49c346c07faba78e53c8}{name}}, const std\+::string \&\mbox{\hyperlink{class_contact_af3b90b9a3413f79ca00ab82cd0c5a4cb}{phone\+Number}})
+\begin{DoxyCompactList}\small\item\em Constructor to intialize a contact with a name and phone Number. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_contact_aaa0df9181ff14d523ef05f949f21380e}{\texorpdfstring{$\sim$}{\string~}\+Contact}} ()=default
+\begin{DoxyCompactList}\small\item\em Virtual destructor to ensure proper cleanup of derived classes. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_contact_a4fdbfb743dbd97669c48f9078ddb37fd}{get\+Name}} () const
+\begin{DoxyCompactList}\small\item\em Gets the name of contact. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_contact}{Contact}}}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{class_contact_a07c586c9557f49c346c07faba78e53c8}{name}}
+\begin{DoxyCompactList}\small\item\em The name of the contact. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_contact_af3b90b9a3413f79ca00ab82cd0c5a4cb}{phone\+Number}}
+\begin{DoxyCompactList}\small\item\em The phone number of the contact. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a business contact in the address book. 
+
+This class extends the functionality of the base {\ttfamily \doxylink{class_contact}{Contact}} class by adding an attribute for the company name associated with the contact. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_business_contact_ade35427dd751009cd898565e4983e877}\index{BusinessContact@{BusinessContact}!BusinessContact@{BusinessContact}}
+\index{BusinessContact@{BusinessContact}!BusinessContact@{BusinessContact}}
+\doxysubsubsection{\texorpdfstring{BusinessContact()}{BusinessContact()}}
+{\footnotesize\ttfamily \label{class_business_contact_ade35427dd751009cd898565e4983e877} 
+Business\+Contact\+::\+Business\+Contact (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name}{, }\item[{const std\+::string \&}]{phone\+Number}{, }\item[{const std\+::string \&}]{company}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor to initialize a business contact. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the contact. \\
+\hline
+{\em phone\+Number} & The phone number of the contact. \\
+\hline
+{\em company} & The company name associated with the contact. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_business_contact_a6714083b1f660998adcae3819dc7f7a6}\index{BusinessContact@{BusinessContact}!display@{display}}
+\index{display@{display}!BusinessContact@{BusinessContact}}
+\doxysubsubsection{\texorpdfstring{display()}{display()}}
+{\footnotesize\ttfamily \label{class_business_contact_a6714083b1f660998adcae3819dc7f7a6} 
+void Business\+Contact\+::display (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Overrides the display method to include company information. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_contact_a8b27fcd881c8103dcbb644194c9ca72a}{Contact}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_business_contact_8hpp}{Business\+Contact.\+hpp}}\end{DoxyCompactItemize}

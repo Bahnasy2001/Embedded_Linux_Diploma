@@ -1,0 +1,92 @@
+\doxysection{Personal\+Contact Class Reference}
+\hypertarget{class_personal_contact}{}\label{class_personal_contact}\index{PersonalContact@{PersonalContact}}
+
+
+Represents a personal contact in the address book.  
+
+
+
+
+{\ttfamily \#include $<$Personal\+Contact.\+hpp$>$}
+
+
+
+Inheritance diagram for Personal\+Contact\+:
+% FIG 0
+
+
+Collaboration diagram for Personal\+Contact\+:
+% FIG 1
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_personal_contact_ab48fee959439960fd7c4d976c2d28459}{Personal\+Contact}} (const std\+::string \&\mbox{\hyperlink{class_contact_a07c586c9557f49c346c07faba78e53c8}{name}}, const std\+::string \&\mbox{\hyperlink{class_contact_af3b90b9a3413f79ca00ab82cd0c5a4cb}{phone\+Number}}, const std\+::string \&relationship)
+\begin{DoxyCompactList}\small\item\em Constructor to initialize a personal contact. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_personal_contact_a0dd909ca9a72292ea64400653fe6f7d4}{display}} () const override
+\begin{DoxyCompactList}\small\item\em Overrides the display method to include relationship information. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_contact}{Contact}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_contact_a37bd454120d92e4bb3142b56f3faec98}{Contact}} (const std\+::string \&\mbox{\hyperlink{class_contact_a07c586c9557f49c346c07faba78e53c8}{name}}, const std\+::string \&\mbox{\hyperlink{class_contact_af3b90b9a3413f79ca00ab82cd0c5a4cb}{phone\+Number}})
+\begin{DoxyCompactList}\small\item\em Constructor to intialize a contact with a name and phone Number. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_contact_aaa0df9181ff14d523ef05f949f21380e}{\texorpdfstring{$\sim$}{\string~}\+Contact}} ()=default
+\begin{DoxyCompactList}\small\item\em Virtual destructor to ensure proper cleanup of derived classes. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_contact_a4fdbfb743dbd97669c48f9078ddb37fd}{get\+Name}} () const
+\begin{DoxyCompactList}\small\item\em Gets the name of contact. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_contact}{Contact}}}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{class_contact_a07c586c9557f49c346c07faba78e53c8}{name}}
+\begin{DoxyCompactList}\small\item\em The name of the contact. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_contact_af3b90b9a3413f79ca00ab82cd0c5a4cb}{phone\+Number}}
+\begin{DoxyCompactList}\small\item\em The phone number of the contact. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a personal contact in the address book. 
+
+This class extends the functionality of the base {\ttfamily \doxylink{class_contact}{Contact}} class by adding an attribute for the relationship between the user and the contact. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_personal_contact_ab48fee959439960fd7c4d976c2d28459}\index{PersonalContact@{PersonalContact}!PersonalContact@{PersonalContact}}
+\index{PersonalContact@{PersonalContact}!PersonalContact@{PersonalContact}}
+\doxysubsubsection{\texorpdfstring{PersonalContact()}{PersonalContact()}}
+{\footnotesize\ttfamily \label{class_personal_contact_ab48fee959439960fd7c4d976c2d28459} 
+Personal\+Contact\+::\+Personal\+Contact (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name}{, }\item[{const std\+::string \&}]{phone\+Number}{, }\item[{const std\+::string \&}]{relationship}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor to initialize a personal contact. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the contact. \\
+\hline
+{\em phone\+Number} & The phone Number of the contact. \\
+\hline
+{\em relationship} & The relationship with the contact. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_personal_contact_a0dd909ca9a72292ea64400653fe6f7d4}\index{PersonalContact@{PersonalContact}!display@{display}}
+\index{display@{display}!PersonalContact@{PersonalContact}}
+\doxysubsubsection{\texorpdfstring{display()}{display()}}
+{\footnotesize\ttfamily \label{class_personal_contact_a0dd909ca9a72292ea64400653fe6f7d4} 
+void Personal\+Contact\+::display (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Overrides the display method to include relationship information. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_contact_a8b27fcd881c8103dcbb644194c9ca72a}{Contact}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_personal_contact_8hpp}{Personal\+Contact.\+hpp}}\end{DoxyCompactItemize}
